@@ -1,0 +1,11 @@
+{
+    "name": "kofus/elasticsearch",
+    "type": "library",
+    
+    "autoload": {
+        "psr-0": {
+            "Kofus\\ElasticSearch\\": "src/Kofus/ElasticSearch/"
+        },
+        "classmap" : ["Kofus/ElasticSearch/Module.php"]
+    }
+}
